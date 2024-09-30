@@ -21,7 +21,7 @@ module "cli_workspace" {
   create_workspace_with_existing_org_proj = true
   create_vcs_workflow = false
   
-  current_project_name = module.vault_demo_workspace.created_project_name
+  current_project_name = var.current_project_name
   current_organization_name = var.current_organization_name
   cli_workspace_info = var.cli_workspace_info
 }
