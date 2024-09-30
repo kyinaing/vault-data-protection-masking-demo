@@ -2,7 +2,7 @@ current_organization_name = "empower-sphere"
 current_project_name = "vault-data-protection-demo"
 vcs_workspace_info = [ {
     name = "02-tfc-create-hcp-vault-cluster"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -20,7 +20,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "03-tfc-create-dynamic-provider-credential-vault"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -38,7 +38,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "04-tfc-create-vault-aws-secret-dynamic-role"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -56,7 +56,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "05-tfc-create-vpc-subnet-igw-ngw"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -74,7 +74,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "06-tfc-create-hvn-vpc-peering"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -92,7 +92,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "07-tfc-create-vault-aws-auth-backend"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -110,7 +110,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "08-tfc-create-transit-engine"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -128,7 +128,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "09-tfc-create-vault-transform-ccn"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -146,7 +146,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "10-tfc-create-vault-transform-ssn"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -164,7 +164,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "11-tfc-create-rds-ec2-python-instance"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -182,7 +182,7 @@ vcs_workspace_info = [ {
   },
   {
     name = "12-tfc-create-vault-database-secret-mysql"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
@@ -204,7 +204,7 @@ vcs_workspace_info = [ {
 
   cli_workspace_info = [ {
     name = "01-tfc-vault-demo-variables-mgmt"
-    assessments_enabled = true
+    assessments_enabled = false
     auto_apply = true
     auto_apply_run_trigger = false
     queue_all_runs = false
