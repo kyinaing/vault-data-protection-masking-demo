@@ -4,10 +4,10 @@ variable "current_organization_name" {
   default     = null
 }
 
-variable "projectname" {
-  type        = list(any)
-  description = "Project Name to Create Projects"
-  default     = [null]
+variable "current_project_name" {
+  type        = string
+  description = "Existing Project Name"
+  default     = null
 }
 
 variable "vcs_workspace_info" {
